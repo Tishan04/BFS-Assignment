@@ -1,0 +1,27 @@
+NAME: T. D. ABEYDEERA
+
+EMAIL: T.D.ABEYDEERA@GMAIL.COM
+
+
+I have tested my code in the terminal. I have used the sample test cases given in the assignment and 
+tried some of my inputs to further clarify how it handles different inputs and things. The output given
+from my code is identical to what was given in the assignment explanation document.
+
+
+HOW TO EXECUTE THE PROGRAM.
+METHOD 01
+1. Open the terminal and change the current directory to BFS directory.
+2. Compile the program using the command: gcc bfs.c 
+3. Run the program: ./a.out
+
+METHOD 02
+1. Same as METHOD 01
+2. Compile the program by typing: makefile
+3. Run the program: ./bfs
+4. To remove the compiled executable files, type: clean
+
+
+Eventhough we have allocated 100 nodes, we are only using 26 as per the number of capital letters in the
+alphabet. Therefore my code will not work for inputs with double letters like AA or AB. The reason is I 
+have used the data type char when reading from the file and then printing also.
+My program assumes that the first node in the node list is the starting node of the traversal logic.
